@@ -1,9 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
+
+  
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +17,17 @@ public class UIManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+
+
+    public void OnRetry()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+    public void OnQuit()
+    {
+        Application.Quit();
     }
 }

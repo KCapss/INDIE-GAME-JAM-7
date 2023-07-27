@@ -49,3 +49,4 @@ MonoBehaviour:
   HoverMsc: {fileID: 8300000, guid: 88d7f5c5c81edbe40b4bd77b19d16d24, type: 3}
   GameOver: {fileID: 8300000, guid: b4bcec26aa49ac94eb3fa8c1045f75fb, type: 3}
   Press: {fileID: 8300000, guid: 95d4d08bc2500fc40af70a52663e2aac, type: 3}
+  DiaglogueClip: {fileID: 8300000, guid: 94ba04f9199992a44ad33823f7543fb2, type: 3}

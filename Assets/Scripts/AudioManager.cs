@@ -15,6 +15,9 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AudioClip GameOver;
     [SerializeField] private AudioClip Press;
 
+    [Header("Dialogue")]
+    [SerializeField] private AudioClip DiaglogueClip;
+
     public static AudioManager Instance { get; private set; }
     private void Awake()
     {
@@ -30,7 +33,32 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    
+    public AudioClip RetrieveInGameMsc()
+    {
+        return InGame;
+    }
+
+    public AudioClip RetreiveTitleMsc()
+    {
+        return TitleMsc;
+    }
+
+    public AudioClip RetrieveSFXPress()
+    {
+        return Press;
+    }
+
+    public AudioClip RetrieveSFXGameOver()
+    {
+        return GameOver;
+    }
+
+    public AudioClip RetrieveDialogue()
+    {
+        return DiaglogueClip;
+    }
+
+
 
 
     // Start is called before the first frame update
